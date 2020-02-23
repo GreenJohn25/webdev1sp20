@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0 ;
 }
- 
+p {
+    text-align: center;
+}
 h1 {
     font-family: Arial;
     text-align: center;
@@ -11,5 +13,35 @@ h1 {
 a {
     padding: 20px;
     margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     color: darkblue;
+}
+.menu {
+    background-color: darkslategray;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.menu a { 
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    color: blue;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu a:hover {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+body {
+    background-color: wheat;
 }
