@@ -1,0 +1,61 @@
+.snake {
+    height: 25px;
+    width: 10px;
+    position: relative;
+    background: rebeccapurple;
+    border-radius: 25px;
+    padding: 10px;
+    animation-name: load;
+    animation-duration: 10s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+
+}
+@keyframes load {
+    0% { width: 10px; height: 25px; }
+    25% { width: 50px; height: 25px;}
+    50% { width: 100px; height: 25px;}
+    75% { width: 150px; height: 25px;}
+    100% { width: 200px; height: 25px;}
+}
+.spike {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    background: salmon;
+    border-radius: 200px;
+    padding-left: 200px;
+    padding-top: 50px;
+    animation-name: phil;
+    animation-duration: 4s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+
+@keyframes phil {
+    0% { width: 200px; height: 300px; }
+    50% { width: 100px; height: 100px;}
+    75% { width: 400px; height: 400px;}
+    100% { width: 200px; height: 300px;}
+}
+
+.smallpeter {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    background: salmon;
+    border-radius: 25px;
+    padding-left: 300px;
+    padding-top: 50px;
+    animation-name: jacob;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes jacob {
+    0% { width: 25px; height: 300px; }
+    50% { width: 25px; height: 100px;}
+    75% { width: 25px; height: 400px;}
+}

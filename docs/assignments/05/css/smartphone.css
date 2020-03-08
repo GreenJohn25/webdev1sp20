@@ -1,0 +1,45 @@
+a:hover {
+    color: greenyellow;
+}
+#flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 20px;
+    width: 60vw;
+    background-color: rgb(200, 255, 230);
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 5px solid orangered;
+    overflow: scroll;
+  }
+
+.outerbox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 450px;
+    height: 400px;
+    border: 5px solid black; 
+    margin: 50px;
+
+}
+.row {
+    display: flex;
+    border: 5px;
+    justify-content: space-evenly;
+}
+
+.box {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    border: 5px solid black;
+    margin: 10px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+  }
+  
